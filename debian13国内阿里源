@@ -1,0 +1,12 @@
+2. 阿里云镜像站
+阿里云的镜像站也是一个非常可靠的选择，速度同样很快。
+
+# 默认注释了源码镜像以提高apt update 速度，如有需要可自行取消注释
+deb https://mirrors.aliyun.com/debian/ trixie main contrib non-free non-free-firmware
+# deb-src https://mirrors.aliyun.com/debian/ trixie main contrib non-free non-free-firmware
+
+deb https://mirrors.aliyun.com/debian-security/ trixie-security main contrib non-free non-free-firmware
+# deb-src https://mirrors.aliyun.com/debian-security/ trixie-security main contrib non-free non-free-firmware
+
+deb https://mirrors.aliyun.com/debian/ trixie-updates main contrib non-free non-free-firmware
+# deb-src https://mirrors.aliyun.com/debian/ trixie-updates main contrib non-free non-free-firmware
