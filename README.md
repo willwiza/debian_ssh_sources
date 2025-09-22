@@ -33,7 +33,8 @@ sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
 echo > /etc/apt/sources.list  #清空下一步直接复制粘贴，不喜欢可以一个个注释掉
 sudo nano /etc/apt/sources.list  #打开粘贴以下阿里云
 
-# 默认注释了源码镜像以提高apt update 速度，如有需要可自行取消注释
+#默认注释了源码镜像以提高apt update 速度，如有需要可自行取消注释
+
 deb https://mirrors.aliyun.com/debian/ trixie main contrib non-free non-free-firmware
 # deb-src https://mirrors.aliyun.com/debian/ trixie main contrib non-free non-free-firmware
 
